@@ -1,0 +1,52 @@
+
+.cell{
+    border: 1px solid purple;
+    margin: 1px;
+}
+
+    .topnav{
+        background-color: rgb(161, 141, 141);
+        color: black;
+        text-align: left;
+        padding: 10px 35px;
+        font-size: 10px;
+        font-family: Verdana;
+        word-spacing: 5px;
+    }
+
+    .container{
+    display: grid;
+    border: solid white 5px;
+    grid-template-rows: repeat(8, 100px);
+    grid-template-columns: repeat(5, 125px);
+}
+
+.logo {
+    grid-area: ;
+    grid-row: 1/3;
+    grid-column: 1/5;
+}
+
+.img {
+
+}
+
+.cell-c {
+
+}
+
+.cell-d {
+
+}
+
+.cell-e {
+
+}
+
+.cell-f {
+
+}
+
+.cell-g {
+
+}
